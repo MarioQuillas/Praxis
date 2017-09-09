@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26823.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Praxis.Extensions", "Praxis.Extensions\Praxis.Extensions.csproj", "{CC7C96C1-3D15-448D-933D-A3EB6774509D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Praxis.Tests", "Praxis.Tests\Praxis.Tests.csproj", "{BA6D95AF-E5E9-4F9B-9746-38C698B82B12}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC7C96C1-3D15-448D-933D-A3EB6774509D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC7C96C1-3D15-448D-933D-A3EB6774509D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC7C96C1-3D15-448D-933D-A3EB6774509D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC7C96C1-3D15-448D-933D-A3EB6774509D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA6D95AF-E5E9-4F9B-9746-38C698B82B12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA6D95AF-E5E9-4F9B-9746-38C698B82B12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA6D95AF-E5E9-4F9B-9746-38C698B82B12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA6D95AF-E5E9-4F9B-9746-38C698B82B12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
