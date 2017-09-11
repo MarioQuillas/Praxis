@@ -54,14 +54,8 @@
         }
 
         public Option<TResult> Bind<TResult>(Func<TSource, Option<TResult>> fn)
-            where TResult : class
-        {
-            return this.value == null ? Option<TResult>.CreateEmpty() : fn(this.value);
-        }
+            where TResult : class => this.value == null ? Option<TResult>.CreateEmpty() : fn(this.value);
 
-        public TSource UnWrap()
-        {
-            return this.value;
-        }
+        public TSource UnWrap() => this.value;
     }
 }
